@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- favacon -->
+    <link rel="shortcut icon" href="imgs/todoicon.png" type="image/x-icon">
+    <title>To Do</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="todo-list">
+                <div class="title">
+                    <h2>Todo List</h2>
+                    <img src="imgs/task.png" alt="">
+                </div>
+                <div class="row">
+                    <input type="text" id="input-task" placeholder="Enter a task">
+                    <button onclick="addTask()" class="btn">Add</button>
+                </div>
+
+                <ul id="task-list">
+                    <!-- <li class="checkd" >Task 1 <span>&times;</span></li>
+                    <li class="checkd" >Task 3 <span>&times;</span></li>
+                    <li class="checkd" >Task 4 <span>&times;</span></li>
+                    <li class="checkd" >Task 2 <span>&times;</span></li>
+                    <li class="checkd" >Task 5 <span>&times;</span></li> -->
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p class="copyright">&copy; 2024 <span class="name">Khaled Bahjat</span>. All rights reserved.</p>
+        </footer>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
